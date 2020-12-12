@@ -1,3 +1,4 @@
 resources:
 - config/nginx-deployment.yaml
 - config/nginx-service.yaml
+- config/nginx-ingress.yaml
