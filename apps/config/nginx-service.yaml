@@ -6,9 +6,10 @@ metadata:
   labels:
     run: nginx
 spec:
-  type: NodePort 
   ports:
-  - port: 81
-    protocol: TCP
+  - protocol: TCP
+    port: 80
+    targetPort: http
   selector:
-    run: nginx
+    app: nginx
+    tier: backend
