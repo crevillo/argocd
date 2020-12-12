@@ -6,10 +6,10 @@ metadata:
   labels:
     run: nginx
 spec:
-  ports:
-  - protocol: TCP
-    port: 80
-    targetPort: http
   selector:
     app: nginx
     tier: backend
+  ports:
+  - protocol: TCP
+    port: 85
+    targetPort: http
