@@ -2,6 +2,7 @@ consul:
   replicaCount: 5
   service:
     type: LoadBalancer
-    port: 81
+    port: 80
   ingress:
     enabled: true
+    hostname: consul.splashdevelop.eu
