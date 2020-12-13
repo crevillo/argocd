@@ -7,7 +7,7 @@ spec:
     namespace: consul
     server: 'https://kubernetes.default.svc'
   source:
-    path: packages/consul/9.0.3
+    path: packages/consul
     repoURL: 'https://github.com/crevillo/argocd.git'
     targetRevision: HEAD
     helm:
