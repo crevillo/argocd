@@ -5,4 +5,3 @@ consul:
     port: 81
   ingress:
     enabled: true
-    path: /consul
