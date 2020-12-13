@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: example-ingress
-  namespace: argocd
+  namespace: nginx
 spec:
   rules:
     - host: hello-world.info
@@ -12,6 +12,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: my-nginx
+                name: nginx-service
                 port:
-                  number: 85
+                  number: 80
