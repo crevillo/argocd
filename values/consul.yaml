@@ -5,4 +5,4 @@ consul:
     port: 81
   ingress:
     enabled: true
-    hostname: consul.splashdevelop.eu
+    path: /consul
