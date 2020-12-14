@@ -1,0 +1,14 @@
+apiVersion: v2
+name: bitnami-thanos
+description: Thanos from Bitnami
+
+type: application
+
+version: 3.2.4
+
+appVersion: 0.17.2
+
+dependencies:
+- name: thanos
+  repository: https://charts.bitnami.com/bitnami
+  version: 3.2.4

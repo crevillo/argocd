@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: thanos
+spec:
+  destination:
+    namespace: thanos
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: packages/thanos
+    repoURL: 'https://github.com/crevillo/argocd.git'
+    targetRevision: HEAD
+    helm:
+      version: v3
+      valueFiles:
+        - ../../values/thanos.yaml
+  project: default
+  syncPolicy:
+    automated:
+      prune: false
+      selfHeal: false
+    syncOptions:
+    - CreateNamespace=true
