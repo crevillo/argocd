@@ -1,1 +1,4 @@
-# use defaults
+thanos:
+  queryFrontend:
+    service:
+      type: LoadBalancer
