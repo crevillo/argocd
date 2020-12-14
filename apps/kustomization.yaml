@@ -3,3 +3,4 @@ resources:
 - config/nginx-service.yaml
 - config/nginx-ingress.yaml
 - config/consul.yaml
+- config/thanos.yaml
