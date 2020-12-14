@@ -1,4 +1,4 @@
 thanos:
   queryFrontend:
-    service:
-      type: LoadBalancer
+    ingress:
+      enabled: true
