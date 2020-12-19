@@ -1,0 +1,14 @@
+apiVersion: v2
+name: nginx
+description: Nginx from Bitnami
+
+type: application
+
+version: 8.2.3
+
+appVersion: 1.19.6
+
+dependencies:
+- name: nginx
+  repository: https://charts.bitnami.com/bitnami
+  version: 8.2.3

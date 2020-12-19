@@ -1,6 +1,4 @@
 resources:
-- config/nginx-deployment.yaml
-- config/nginx-service.yaml
-- config/nginx-ingress.yaml
+- config/nginx.yaml
 - config/consul.yaml
 - config/thanos.yaml
