@@ -1,4 +1,7 @@
 consul:
+  service:
+    type: LoadBalancer
+    port: 80
   ingress:
     enabled: true
     hostname: consul.local
