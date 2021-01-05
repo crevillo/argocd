@@ -2,3 +2,4 @@ thanos:
   queryFrontend:
     ingress:
       enabled: true
+      hostname: thanos.local

@@ -5,4 +5,4 @@ consul:
     port: 80
   ingress:
     enabled: true
-    hostname: consul.splashdevelop.eu
+    hostname: consul.local
