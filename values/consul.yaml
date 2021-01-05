@@ -1,0 +1,4 @@
+consul:
+  ingress:
+    enabled: true
+    hostname: consul.local
