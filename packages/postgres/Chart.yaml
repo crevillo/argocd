@@ -9,6 +9,6 @@ version: 10.2.2
 appVersion: 11.10.0
 
 dependencies:
-- name: postgres
+- name: postgresql
   repository: https://charts.bitnami.com/bitnami
   version: 10.2.2
