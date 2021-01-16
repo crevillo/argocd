@@ -4,11 +4,11 @@ description: Postgres
 
 type: application
 
-version: 13.1
+version: 11.10.0
 
-appVersion: 0.2.5
+appVersion: 10.2.2
 
 dependencies:
 - name: postgres
-  repository: https://charts.bitnami.com/bitnami
-  version: 13.1
+  repository: https://groundhog2k.github.io/helm-charts/
+  version: 11.10.0
