@@ -10,5 +10,5 @@ appVersion: 10.2.2
 
 dependencies:
 - name: postgres
-  repository: https://groundhog2k.github.io/helm-charts/
+  repository: https://charts.bitnami.com/bitnami
   version: 11.10.0
