@@ -11,3 +11,6 @@ ingress-nginx:
           prometheus.io/port: "10254"
     tolerations:
       - operator: Exists
+  service:
+    externalIPs:
+      - 192.168.49.2
