@@ -8,4 +8,4 @@ prometheus:
         kubernetes.io/tls-acme: 'true'
         nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
       hosts:
-        - &domain prometheus.local
+        - prometheus.local

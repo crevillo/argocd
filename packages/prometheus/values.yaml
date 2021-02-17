@@ -1,0 +1,14 @@
+prometheus:
+  server:
+    fullnameOverride: prometheus-server
+    persistentVolume:
+      size: 1Ti
+    retention: "40d"
+    statefulset:
+      enabled: true
+  alertmanager:
+    enabled: false
+  pushgateway:
+    enabled: false
+  nodeExporter:
+    enabled: false
