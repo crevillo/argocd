@@ -4,4 +4,4 @@ consul:
     port: 80
   ingress:
     enabled: true
-    hostname: "*.local"
+    hostname: '*.local'
